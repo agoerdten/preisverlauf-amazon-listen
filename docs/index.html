@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Preisverlauf Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="page-header">
+    <h1>Preisverlauf</h1>
+    <p class="page-subtitle">Täglich automatisch erfasste Amazon.de-Preise</p>
+  </header>
+
+  <main id="product-grid" class="product-grid" aria-live="polite">
+    <p class="empty-state">Lade Produkte…</p>
+  </main>
+
+  <template id="product-card-template">
+    <article class="product-card">
+      <a class="product-title" target="_blank" rel="noopener"></a>
+      <div class="stat-row">
+        <span class="stat-value"></span>
+        <span class="stat-delta"></span>
+      </div>
+      <div class="chart-wrapper">
+        <canvas class="product-chart"></canvas>
+      </div>
+      <p class="stat-min"></p>
+    </article>
+  </template>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
