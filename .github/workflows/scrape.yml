@@ -37,3 +37,4 @@ jobs:
             git commit -m "Preise aktualisiert: $(date -u +'%Y-%m-%d')"
             git push
           fi
+
