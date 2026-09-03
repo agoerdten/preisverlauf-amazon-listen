@@ -1,7 +1,7 @@
 {
   "platform": "amazon.de",
   "productId": "B00DZG21Z8",
-  "title": "Kilbeggan Blended Whisky, Traditional Irish Whiskey | mit einem Hauch von Sherry | 40% Vol | 700ml Einzelflasche",
+  "title": "Kilbeggan Blended | Irish Whiskey | 40% Vol | 0,7l",
   "url": "https://www.amazon.de/dp/B00DZG21Z8",
   "currency": "EUR",
   "history": [
@@ -96,7 +96,11 @@
     {
       "date": "2026-09-02",
       "price": 10.44
+    },
+    {
+      "date": "2026-09-03",
+      "price": 13.99
     }
   ],
-  "lastUpdated": "2026-09-02T06:21:08.780472+00:00"
+  "lastUpdated": "2026-09-03T06:17:38.191610+00:00"
 }
