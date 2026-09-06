@@ -1,7 +1,7 @@
 {
   "platform": "amazon.de",
   "productId": "B01K4I5C9G",
-  "title": "Wild Turkey Rare Breed Kentucky Bourbon Whiskey | 0,7l | 58,4 %",
+  "title": "Wild Turkey Rare Breed Kentucky Bourbon Whiskey | 0,7l | 58,4 % | Barrel Proof | Tabak, Vanille, Orange | Geschenkempfehlung",
   "url": "https://www.amazon.de/dp/B01K4I5C9G",
   "currency": "EUR",
   "history": [
@@ -108,7 +108,11 @@
     {
       "date": "2026-09-05",
       "price": 45.48
+    },
+    {
+      "date": "2026-09-06",
+      "price": 46.53
     }
   ],
-  "lastUpdated": "2026-09-05T10:08:44.432737+00:00"
+  "lastUpdated": "2026-09-06T10:29:36.888156+00:00"
 }
